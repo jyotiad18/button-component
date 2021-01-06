@@ -1,0 +1,38 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  background-color: #fafbfd;
+  padding: 46px 56px;
+  height: auto;
+}
+
+.sidebar__logo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 112px;
+}
+
+.sidebar__logo > h1 > span {
+  color: var(--color-red);
+}
+
+.sidebar__menus {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar__menus > a {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 32px;
+  text-decoration: none;
+  color: var(--color-gray-1);
+}
+
+.sidebar__menus .active {
+  color: var(--color-black);
+}

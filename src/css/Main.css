@@ -1,0 +1,49 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 53px 83px;
+}
+
+.main > h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: var(--color-gray-2);
+  margin-bottom: 28px;
+}
+
+.main__grid-two {
+  display: grid;
+  grid-template-columns: 20em 20em;
+  grid-auto-rows: 128px;
+}
+
+.span2 {
+  grid-column: span 2;
+}
+
+.main__grid-four {
+  display: grid;
+  grid-template-columns: repeat(4, 17em);
+  grid-auto-rows: 8em;
+}
+
+.main__iconSrc,
+.main__footer {
+  display: flex;
+  font-family: 'Ubuntu Mono';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+  margin-top: 60px;
+}
+
+.main__footer {
+  font-family: 'Montserrat';
+  line-height: 15px;
+  font-weight: 600;
+}
